@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: daljeet-api
+    env: node
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB
+        value: daljeet
+      - key: CLIENT_ORIGIN
+        value: https://daljeet-client.vercel.app
+
