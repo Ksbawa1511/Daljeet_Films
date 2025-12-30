@@ -11,6 +11,7 @@ const defaultOrigins = [
   'http://localhost:3000',
   'http://127.0.0.1:5173',
   'http://127.0.0.1:3000',
+  'https://daljeet-films-v8th.vercel.app',
 ];
 
 const allowedOrigins = process.env.CLIENT_ORIGIN

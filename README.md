@@ -11,7 +11,7 @@ Set environment in `server/.env` (not committed):
 ```
 MONGO_URI="mongodb://localhost:27017"
 MONGO_DB="daljeet"
-CLIENT_ORIGIN="http://127.0.0.1:5173,http://localhost:5173"
+CLIENT_ORIGIN="http://127.0.0.1:5173,http://localhost:5173,https://daljeet-films-v8th.vercel.app"
 PORT=4000
 ```
 
