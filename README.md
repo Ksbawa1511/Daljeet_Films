@@ -11,8 +11,9 @@ Set environment in `server/.env` (not committed):
 ```
 MONGO_URI="mongodb://localhost:27017"
 MONGO_DB="daljeet"
-CLIENT_ORIGIN="http://127.0.0.1:5173,http://localhost:5173,https://daljeet-films-v8th.vercel.app"
+CLIENT_ORIGIN="http://127.0.0.1:5173,http://localhost:5173,https://daljeet-films-v8th.vercel.app,https://daljeet-films.vercel.app"
 PORT=4000
+VITE_API_BASE="https://daljeet-films.onrender.com"
 ```
 
 2. Frontend

@@ -6,7 +6,11 @@ import Brand from './pages/Brand.jsx';
 import Studios from './pages/Studios.jsx';
 import './App.css';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+const API_BASE =
+  import.meta.env.VITE_API_BASE ||
+  (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app')
+    ? 'https://daljeet-films.onrender.com'
+    : 'http://localhost:4000');
 
 export default function App() {
   const [theme, setTheme] = useState(() => {
