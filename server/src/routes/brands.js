@@ -17,3 +17,4 @@ router.get('/:slug', (req, res) => {
 
 export default router;
 
+

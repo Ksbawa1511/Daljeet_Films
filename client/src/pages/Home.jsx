@@ -81,3 +81,4 @@ export default function Home({ hero, marqueeItems, loading, error, brands }) {
   );
 }
 
+

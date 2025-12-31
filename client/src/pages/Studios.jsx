@@ -32,3 +32,4 @@ export default function Studios({ brands, loading, error, marqueeItems }) {
   );
 }
 
+
